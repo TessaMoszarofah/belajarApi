@@ -7,6 +7,7 @@ use App\Models\User;
 use Auth;
 use Illuminate\Http\Request;
 use validator;
+use Hash;
 
 class AuthController extends Controller
 {
